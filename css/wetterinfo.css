@@ -1,0 +1,416 @@
+/* Wetter.info Admin */
+.wi-admin {
+	width: 752px;
+}
+
+.wi-header {
+	background: url(../images/header_bg.png) no-repeat;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 12px;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+.wi-box {
+	background: url(../images/box_bg.png) repeat-y;
+
+}
+
+.wi-box-footer {
+	background: url(../images/boxfooter.png) no-repeat;
+	height: 8px;
+	clear: both;
+}
+
+.wi-city {
+	float: left;
+	width: 366px;
+	height: 262px;
+}
+
+.wi-city .wi-box-content {
+	height: 327px;
+	padding-left:11px;
+	padding-top:14px;
+}
+
+.wi-loc-input {
+	width:179px;
+	margin-top:10px;
+	margin-right:20px;
+}
+.wi-loc-result {
+	width:229px;
+	margin-top:24px;
+}
+.wi-content-header, .wi-result-header {
+	font-weight:bold;
+}
+
+
+.wi-color {
+	float: right;
+	width: 366px;
+	height: 223px;
+}
+
+.wi-design {
+	float: right;
+	width: 366px;
+	margin-bottom: 14px;
+}
+.wi-loc-btn {
+	margin-right:10px;
+	float:right;
+	margin-top:5px;
+	width:109px;
+	height:27px;
+	
+}
+.wi-design-btn{
+	margin-right:10px;
+	float:right;
+	margin-top:20px;
+	width:109px;
+	height:27px;
+	
+}
+.wi-dropdown-region {
+	width:150px;
+	margin-top:5px;
+	margin-right:50px;
+}
+.wi-loc-results {
+	margin-top:12px;
+	overflow:auto;
+	height:165px;
+	width:300px;
+
+}
+.wi-design .wi-box-content{
+	height: 116px;
+	padding-left:11px;
+	padding-top:14px;
+
+}
+.wi-color .wi-box-content {
+	height: 128px;
+	padding-left:11px;
+	padding-top:14px;
+}
+
+.wi-color-btn {
+	margin-right:10px;
+	float:right;
+	margin-top:17px;
+	width:109px;
+	height:27px;
+	
+}
+#wi-design-text {
+	width: 300px;
+}
+#wi-color-text {
+	width: 346px;
+}
+#wi-color-picker {
+	width:344px;
+	margin-top:20px;
+	height: 25px;
+}
+#wi-color-picker span{
+	margin-left:10px;
+}
+#wi-color-picker-border {
+	width:134px;
+	float:left;
+	height:25px;
+	line-height:25px;
+	text-align:left;
+	position:absolute;
+}
+#wi-color-picker-bg {
+	width:144px;
+	float:left;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	position:absolute;
+	margin-left:129px;
+}
+#wi-color-picker-font {
+	width:100px;
+	float:left;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+	position:absolute;
+	margin-left:278px;
+}
+#wi-loc-results-container{
+	display:none;
+}
+.hidden {
+	display:none;
+}
+
+#wi-tool {
+	height:auto;
+	width:100%;
+}
+#wi-weather-current {
+	height:auto;
+	width:100%;
+	text-align:center;
+	
+}
+#wi-weather-border {
+	margin-left:5px;
+	margin-right:5px;
+	text-align:center;
+	border-bottom:2px solid;
+	padding-bottom:5px;
+	clear:both;
+}
+
+#wi-weather-current-container {
+	width:150px;
+	margin:0 auto;
+	height:100%;
+}
+#wi-weather-current-icon {
+	width:50px;
+	height:50px;
+	float:left;
+}
+#wi-weather-current-temp {
+	width:50px;
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+	font-size:18px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wi-weather-current-maxmintemp {
+	width:50px;
+	float:left;
+	height:50px;
+
+}
+.test {
+	margin-top:8px;
+}
+.wi-weather-icon img{
+	margin-top:5px;
+	margin-left:2px;
+}
+#wetterinfo_data {
+	position:relative;
+}
+#wi-weather-header {
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#wi-weather-next {
+	width:100%;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:10px;
+}
+
+.wi-weather{
+	width:50%;
+	min-width:90px;
+	float:left;
+}
+.wi-weather-temp {
+	margin:0 auto;
+	position:relative;
+	width:90px;
+	height:32px;
+}
+.wi-weather-maxmintemp {
+	float:left;
+	text-align:right;
+	width:35px;
+}
+
+.wi-weather-day {
+	width:20px;	
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+}
+.wi-weather-red {
+	color:#ff0000;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wi-weather-blue {
+	color:#0000ff;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wi-weather-icon {
+	float:left;
+	width:30px;
+}
+#wi-weather-footer {
+	margin-top:8px;
+	margin-right:5px;
+	float:right;
+	clear:both;
+
+
+}
+.wi-span-footer {
+	padding-top:2px;
+	margin-right:2px;
+	font-size:10px;
+	float:left;
+}
+.BigWetterLogo {
+	clear:both;
+}
+
+.wi-header-arrow {
+	margin-top:8px;
+	margin-right:5px;
+	float:right;
+	width:18px;
+	height:16px;
+	background:url('images/arrow.png');
+	cursor:Pointer;
+}
+.wi-picker-quick-static {
+	width:134px;
+	height:256px;
+	margin-left:208px;
+}
+.wi-picker-quick {
+	height:34px;
+	width:64px;
+	position:absolute;
+	border:2px solid #caced6;
+}
+.wi-picker-static {
+	height:34px;
+	width:64px;
+	position:absolute;
+	left:70px;
+	border:2px solid #caced6;
+}
+.wi-picker-color-container {
+	 position:absolute;
+	 top:6px;
+	 height:34px;
+	 width:134px;
+
+}
+#wi-color-picker-border div{
+	float:left;
+	margin-right:8px;
+}
+#wi-color-picker-bg div{
+	float:left;
+	margin-right:8px;
+}
+#wi-color-picker-font div{
+	float:left;
+	margin-right:8px;
+}
+.wi-picker-color {
+	cursor:Pointer;
+	float:left;
+	border:1px solid grey;
+}
+#wi-picker-bg {
+	width:100%;
+	height:100%;
+	position:absolute;
+	display:none;
+}
+.wi-picker-btns {
+	position:absolute;
+	top:140px;
+	left:296px;
+}
+.wi-picker-btns img{
+	cursor:Pointer;
+	margin-left:3px;
+}
+.wi-picker-input {
+	position:absolute;
+	top:47px;
+	left:208px;
+}
+.wi-picker-input input{
+	background:#ebecef;
+	float:right;
+	width:32px;
+	height:16px;
+	font-size:9px;
+	margin-right:10px;
+	margin-top:3px;
+	text-align:right;
+	line-height:16px;
+	padding:0;
+}
+.wi-picker-input div {
+	width:62px;
+	height:22px;
+	line-height:22px;
+	border: 1px solid #caced6;
+	margin-bottom:6px;
+	font-size:12px;
+	padding-left:5px;
+	background:#cbcfd7;
+}
+.wi-picker {
+	 top:295px;
+	 left:7px;
+	 display:none;
+	 position:absolute;
+	 height:170px;
+	 width:350px;
+	 border:1px solid #aeb5c1;
+	 background:#ebecef;
+}
+.wi-picker-huebar {
+	position:absolute;
+	left:164px;
+	width:35px;
+	height:154px;
+	top:6px;
+	
+}
+.wi-picker-huebar #huebar {
+	border:2px solid #aeb5c1;
+}
+.wi-picker-gradientbox {
+	cursor:crosshair;
+	position:absolute;
+	top:6px;left:7px;
+	width:154px;
+	height:154px;
+	border:2px solid #aeb5c1;
+}
+
+#wi-weather-container img, #wi-weather-container img a, #wi-weather-container img a:hover {
+	margin: 0px;
+	border: 0px;
+	max-height: 250px;
+}
+
+#wi-weather-container {
+	max-height: 250px;
+}
+
+#wetterinfo_data {
+	max-height: 250px;
+}
